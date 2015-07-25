@@ -29,6 +29,8 @@ body {
   padding-bottom: 19px;
 }
 
+.my-class:hover { background-color: #eeeeee; }
+
 /* Custom page footer */
 .footer {
   padding-top: 20px;
