@@ -41,6 +41,11 @@ angular
         controller: 'ContactCtrl',
         controllerAs: 'contact'
       })
+      .when('/d3', {
+        templateUrl: 'views/d3.html',
+        controller: 'D3Ctrl',
+        controllerAs: 'd3'
+      })
       .otherwise({
         redirectTo: '/'
       });

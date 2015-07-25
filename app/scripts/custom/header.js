@@ -1,4 +1,5 @@
 // var navBarUl = document.getElementById("navBarUl");
+'use strict';
 
 $(function() { 
 	$(".my-class").click(function () {
