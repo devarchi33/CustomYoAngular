@@ -33,6 +33,9 @@ module.exports = function(config) {
       'bower_components/angular-route/angular-route.js',
       'bower_components/angular-sanitize/angular-sanitize.js',
       'bower_components/angular-touch/angular-touch.js',
+      'bower_components/d3/d3.js',
+      'bower_components/soundmanager2/script/soundmanager2.js',
+      'bower_components/scrollr/src/skrollr.js',
       'bower_components/angular-mocks/angular-mocks.js',
       // endbower
       "app/scripts/**/*.js",

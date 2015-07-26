@@ -1,1 +1,15 @@
-<p>This is the custom1 view.</p>
+<div class="input-group">
+	<span class="input-group-addon" id="basic-addon1">@</span>
+	<input type="text" class="form-control" placeholder="Custom1" aria-describedby="basic-addon1" ng-model="valueCustom">
+</div>
+<div class="container">
+	<p>This is the custom1 view <strong>{{ valueCustom | uppercase }}</strong>.</p>
+</div>
+<div>
+	<div class="input-group">
+		<span class="input-group-addon" id="basic-addon1">First Name: </span><input type="text" class="form-control" ng-model="firstName"><br>
+		<span class="input-group-addon" id="basic-addon1">Last Name: </span><input type="text" class="form-control" ng-model="lastName">
+		<br>
+	</div>
+	<h3>Full Name: {{ fullName() }}</h3>
+</div>

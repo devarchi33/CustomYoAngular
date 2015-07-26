@@ -29,10 +29,22 @@ body {
   padding-bottom: 19px;
 }
 
-.my-class:hover { background-color: #eeeeee; }
+
+#navBarUl li a {
+  color: #fff;
+}
+
+#navBarUl .my-class a:focus { background-color: #4AAAFA; }
+#navBarUl .my-class a:hover { background-color: #4DDDFD; }
+.active { background-color: #4DDDFD; }
+
+#dynamicView {
+  margin-top: 208px;
+}
 
 /* Custom page footer */
 .footer {
+  margin-top: 700px;
   padding-top: 20px;
   padding-bottom: 10px;
   color: #777;
