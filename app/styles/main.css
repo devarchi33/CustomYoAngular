@@ -31,7 +31,6 @@ body {
   padding-bottom: 19px;
 }
 
-
 #navBarUl li a {
   color: #fff;
 }
@@ -39,10 +38,6 @@ body {
 #navBarUl .my-class a:focus { background-color: #4AAAFA; }
 #navBarUl .my-class a:hover { background-color: #4DDDFD; }
 .active { background-color: #4DDDFD; }
-
-button.navbar-toggle {
-  background-color: #000;
-}
 
 #dynamicView {
   margin-top: 208px;
