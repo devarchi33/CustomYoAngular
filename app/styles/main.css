@@ -1,3 +1,5 @@
+/*@import url(https://reset5.googlecode.com/hg/reset.min.css);*/
+
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
@@ -37,6 +39,10 @@ body {
 #navBarUl .my-class a:focus { background-color: #4AAAFA; }
 #navBarUl .my-class a:hover { background-color: #4DDDFD; }
 .active { background-color: #4DDDFD; }
+
+button.navbar-toggle {
+  background-color: #000;
+}
 
 #dynamicView {
   margin-top: 208px;
