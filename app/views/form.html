@@ -1,0 +1,21 @@
+<p>This is the form view.</p>
+<p>{{ name }}</p>
+<p>{{ intake }}</p>
+<div class="well">
+	<h3>DailyIntake</h3>
+	<form class="form-horizontal">
+		<div class="form-group">
+			<label for="waterDailyIntake" class="col-sm-2 control-label"><span class="glyphicon glyphicon-tint" aria-hidden="true">WaterIntake&nbsp;</span></label>
+			<div class="col-sm-10">
+				<input type="number" class="form-control" id="waterDailyIntake" placeholder="WaterIntake" ng-model="intake" min=1 max=100/>
+			</div>
+		</div>
+		<button ng-click="save()" class="btn btn-default">submit</button>
+	</form>
+</div>
+<div id="viz"></div>
+<div id="viz2"></div>
+<p>success</p>
+<p>err</p>
+<p>big</p>
+<p>what?!</p>

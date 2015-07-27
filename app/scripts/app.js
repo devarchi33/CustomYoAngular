@@ -46,6 +46,11 @@ angular
         controller: 'D3Ctrl',
         controllerAs: 'd3'
       })
+      .when('/form', {
+        templateUrl: 'views/form.html',
+        controller: 'FormCtrl',
+        controllerAs: 'form'
+      })
       .otherwise({
         redirectTo: '/'
       });
